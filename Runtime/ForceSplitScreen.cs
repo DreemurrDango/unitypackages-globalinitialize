@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GlobalInitialize
+namespace DreemurrStudio.GlobalInitialize
 {
     /// <summary>
     /// 多场景并行时自动加载

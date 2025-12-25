@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-namespace GlobalInitialize
+namespace DreemurrStudio.GlobalInitialize
 {
     /// <summary>
     /// 游戏全局管理器：控制初始化加载的场景，封装场景刷新、叠加加载

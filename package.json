@@ -1,0 +1,24 @@
+﻿{
+  "name": "com.dreemurrstudio.globalinitialize",
+  "version": "1.1.0",
+  "displayName": "全局化控制",
+  "description": "提供一系列用于在Unity程序启动时强制应用的全局设置，非常适合用于需要严格控制运行环境的特殊应用",
+  "unity": "2021.3",
+  "author": {
+    "name": "DreemurrStudio",
+    "email": "3011090456@qq.com",
+    "url": "https://gitee.com/RoastDango"
+  },
+  "keywords": [
+    "Global",
+    "Initialize",
+    "Control",
+    "Resolution",
+    "Focus",
+    "SplitScreen",
+    "Cursor"
+  ],
+  "dependencies": {
+    "com.dreemurrstudio.utilities": "2.0.0"
+  }
+}

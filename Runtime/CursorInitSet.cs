@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.GlobalInitialize
+namespace DreemurrStudio.GlobalInitialize
 {
     /// <summary>
     /// 光标初始化设置

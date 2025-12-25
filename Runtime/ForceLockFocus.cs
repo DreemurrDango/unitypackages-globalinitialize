@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace GlobalInitialize
+namespace DreemurrStudio.GlobalInitialize
 {
     /// <summary>
     /// 强制锁定焦点在此软件

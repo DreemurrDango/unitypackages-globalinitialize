@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GlobalInitialize
+namespace DreemurrStudio.GlobalInitialize
 {
     /// <summary>
     /// 强制锁定分辨率
