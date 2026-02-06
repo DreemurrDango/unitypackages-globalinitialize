@@ -37,7 +37,12 @@ namespace DreemurrStudio.GlobalInitialize
         /// <summary>
         /// 当前是否处于调试模式
         /// </summary>
-        private bool inDebug = false;
+        private bool _inDebug = false;
+
+        /// <summary>
+        /// 获取当前是否处于调试模式
+        /// </summary>
+        public bool InDebug => _inDebug;
         private IEnumerator Start()
         {
             yield return new WaitForSeconds(delayTime);
@@ -51,8 +56,8 @@ namespace DreemurrStudio.GlobalInitialize
         private void Update()
         {
             if (!Input.GetKeyDown(debugCode)) return;
-            inDebug = !inDebug;
-            if (inDebug) OnEnterDebugMode?.Invoke();
+            _inDebug = !_inDebug;
+            if (_inDebug) OnEnterDebugMode?.Invoke();
             else OnExitDebugMode?.Invoke();
         }
 
